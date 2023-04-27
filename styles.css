@@ -4,6 +4,7 @@ body {
     text-align: center;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercas;
 }
 
 h2 {
@@ -17,6 +18,7 @@ hr {
     width: 40%;
 }
 
+
 .logo-img {
     height: 100px;
     display: inline-block;
@@ -27,21 +29,19 @@ hr {
     height: 10rem;
 }
 
-p {
-    font-size: 100%;
-}
-
 .house {
     padding: 1rem;
     display: inline-block;
     margin: 5px;
-    height: 600px;
+    height: 650px;
     width: 160px;
-    border: 20px;
+    border: 20px solid;
+    top: 50px;
 }
 
-.blank {
-    visibility: hidden;
+.pokemon-type {
+    height: 30px;
+    display: inline-block;
 }
 
 #gryffindor {
