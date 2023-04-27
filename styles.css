@@ -29,12 +29,12 @@ hr {
 }
 
 .house {
-    padding: 1rem;
+    padding: 0.5rem;
     display: inline-block;
     margin: 5px;
-    height: 650px;
+    height: 690px;
     width: 160px;
-    border: 2px solid;
+    border: 20px solid;
 }
 
 .pokemon-type {
@@ -54,20 +54,24 @@ hr {
 #gryffindor {
     background-color: #d31b15;
     color: #dc9e34;
+    border-image: url("./assets/images/gryffindor-background.jpg") 50 round;
 }
 
 #slytherin {
     background-color: #197017;
     color: #b2b2b2;
+    border-image: url("./assets/images/slytherin-background.jpg") 70 round;
 
 }
 
 #ravenclaw {
-    background-color: #05597a;
+    background-color: #01337a;
     color: #ac6c50;
+    border-image: url("./assets/images/ravenclaw-background.jpg") 50 round;
 }
 
 #hufflepuff {
     background-color: #d4b12f;
-    color: #24221f
+    color: #24221f;
+    border-image: url("./assets/images/hufflepuff-background.jpg") 20 round;
 }
