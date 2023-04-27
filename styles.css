@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+hr {
+    border: dotted white 6px;
+    border-bottom: none;
+    margin: 3rem auto;
+    width: 40%;
+}
+
+.logo-img {
+    height: 100px;
+    display: inline-block;
+    margin: 2rem;
+}
+
+.house-img {
+    height: 10rem;
+}
+
+p {
+    font-size: 100%;
+}
+
+.house {
+    padding: 1rem;
+    display: inline-block;
+    margin: 5px;
+    height: 600px;
+    width: 160px;
+    border: 20px;
+}
+
+.blank {
+    visibility: hidden;
+}
+
+#gryffindor {
+    background-color: #d31b15;
+    color: #dc9e34;
+}
+
+#slytherin {
+    background-color: #197017;
+    color: #b2b2b2;
+
+}
+
+#ravenclaw {
+    background-color: #05597a;
+    color: #ac6c50;
+
+}
+
+#hufflepuff {
+    background-color: #d4b12f;
+    color: #24221f;
+}
