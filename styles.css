@@ -2,7 +2,6 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercas;
 }
@@ -43,6 +42,10 @@ hr {
     display: inline-block;
 }
 
+.type-name {
+    text-align: left;
+}
+
 #gryffindor {
     background-color: #d31b15;
     color: #dc9e34;
@@ -57,7 +60,6 @@ hr {
 #ravenclaw {
     background-color: #05597a;
     color: #ac6c50;
-
 }
 
 #hufflepuff {
