@@ -35,8 +35,7 @@ hr {
     margin: 5px;
     height: 650px;
     width: 160px;
-    border: 20px solid;
-    top: 50px;
+    border: 2px solid;
 }
 
 .pokemon-type {
@@ -63,5 +62,6 @@ hr {
 
 #hufflepuff {
     background-color: #d4b12f;
-    color: #24221f;
+    color: #24221f
+    color: white;
 }
