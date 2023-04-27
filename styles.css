@@ -46,6 +46,11 @@ hr {
     text-align: left;
 }
 
+.invisible {
+    height: 30px;
+    visibility: hidden;
+}
+
 #gryffindor {
     background-color: #d31b15;
     color: #dc9e34;
