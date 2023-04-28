@@ -5,15 +5,25 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
-    text-transform: uppercase;
-}
 
 hr {
     border: dotted white 6px;
     border-bottom: none;
     margin: 3rem auto;
     width: 40%;
+}
+
+
+.logo-img {
+    height: 100px;
+    display: inline-block;
+    margin: 2rem;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    position: relative;
 }
 
 .house {
@@ -23,26 +33,31 @@ hr {
     height: 690px;
     width: 160px;
     border: 20px solid;
+    position: relative;
 }
 
-.logo-img {
-    height: 100px;
-    display: inline-block;
-    margin: 2rem;
+.part1-characteristics {
+        position: relative;
 }
 
-.house-img {
+.part2-housecrest {
+        position: relative;
+}
+
+.housecrest-img {
     height: 10rem;
 }
 
-.type-img {
-    height: 30px;
-    display: inline-block;
-}
-
-.type-name {
+.part3-pokemontypes {
     text-align: left;
     text-transform: uppercase;
+    position: relative;
+}
+
+.pokemontype-img {
+    height: 30px;
+    display: inline-block;
+    position: relative;
 }
 
 .invisible {
@@ -51,26 +66,22 @@ hr {
 }
 
 #gryffindor {
-    background-color: #d31b15;
-    color: #dc9e34;
+    background: linear-gradient(45deg, #dc9e34, #d31b15);
     border-image: url("./assets/images/gryffindor-background.jpg") 50 round;
 }
 
 #slytherin {
-    background-color: #197017;
-    color: #b2b2b2;
+    background: linear-gradient(45deg, #b2b2b2, #197017);
     border-image: url("./assets/images/slytherin-background.jpg") 70 round;
 
 }
 
 #ravenclaw {
-    background-color: #01337a;
-    color: #ac6c50;
+    background: linear-gradient(45deg, #ac6c50, #01337a);
     border-image: url("./assets/images/ravenclaw-background.jpg") 50 round;
 }
 
 #hufflepuff {
-    background-color: #d4b12f;
-    color: #24221f;
+    background: linear-gradient(45deg, #24221f, #d4b12f);
     border-image: url("./assets/images/hufflepuff-background.jpg") 20 round;
 }
