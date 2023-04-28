@@ -29,10 +29,10 @@ h2 {
 .house {
     padding: 0.5rem;
     display: inline-block;
-    margin: 20px;
-    height: 690px;
-    width: 160px;
-    border: 20px solid;
+    margin: 1.25rem;
+    height: 43rem;
+    width: 15rem;
+    border: 1.25rem solid;
     position: relative;
 }
 
