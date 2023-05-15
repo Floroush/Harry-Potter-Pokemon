@@ -13,17 +13,21 @@ hr {
     width: 40%;
 }
 
+h2 {
+    text-transform: uppercase;
+    position: relative;
+}
+
+.part3-pokemontypes>p:hover {
+    background-color: black;
+    color: #FFD32D;
+    border-radius: 20%;
+}
 
 .logo-img {
     height: 100px;
     display: inline-block;
     margin: 2rem;
-}
-
-
-h2 {
-    text-transform: uppercase;
-    position: relative;
 }
 
 .house {
