@@ -18,6 +18,41 @@ h2 {
     position: relative;
 }
 
+.flex-container {
+    display: flex;
+    /* Optional: specify additional container properties */
+    flex-wrap: row wrap;
+    /* or column, row-reverse, column-reverse */
+    justify-content: flex-start;
+    /* or flex-end, center, space-between, space-around, space-evenly */
+    align-items: stretch;
+    /* or flex-start, flex-end, center, baseline */
+    align-content: stretch;
+    /* or flex-start, flex-end, center, space-between, space-around */
+}
+
+.flex-item {
+    /* Optional: specify individual item properties */
+    flex: 1 1 auto;
+    /* or flex-grow, flex-shrink, flex-basis */
+    /* Other styles for the flex items */
+    flex-basis: 50%;
+    /* Two items per line */
+    box-sizing: border-box;
+    /* Optional: include padding and border within the flex items */
+}
+
+/* Adjust styles for the first two items */
+.flex-item:nth-child(-n + 2) {
+    flex-basis: 100%;
+    /* Full width for the first two items */
+}
+
+
+
+
+
+
 .part3-pokemontypes>p:hover {
     background-color: black;
     color: #FFD32D;
@@ -41,11 +76,11 @@ h2 {
 }
 
 .part1-characteristics {
-        position: relative;
+    position: relative;
 }
 
 .part2-housecrest {
-        position: relative;
+    position: relative;
 }
 
 .housecrest-img {
